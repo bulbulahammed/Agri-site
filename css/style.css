@@ -1,0 +1,778 @@
+/* -------------------------------------------------------
+                     import scss
+-------------------------------------------------------- */
+.theme {
+    color: #81c14b;
+}
+
+.white_text,
+.custom_nav .navbar-brand,
+.custom_nav .navbar-brand:hover,
+.custom_nav #my_nav ul li a,
+#banner .container .row .banner_area,
+#banner .container .row .banner_area button,
+#banner .container .row .banner_area button:hover,
+#category button:hover,
+#honey .honey_text button,
+#honey .honey_text button:hover,
+#special_offer .offer_area .offer_inner button,
+#special_offer .offer_area .offer_inner button:hover,
+#best_seller .shop_button button:hover,
+#testimonial button:hover,
+#buy_best .container .best_buy_area h2,
+#buy_best .container .best_buy_area button,
+#buy_best .container .best_buy_area button:hover,
+#footer .container .footer_button button,
+#footer .container .footer_button button:hover {
+    color: #f2f2f2;
+}
+
+.dark_text {
+    color: #171717;
+}
+
+.themebg {
+    background-color: #81c14b;
+}
+
+.ovo,
+h1,
+h2,
+#category .category_area {
+    font-family: 'Ovo', serif;
+}
+
+.muli,
+p,
+button {
+    font-family: 'Muli', sans-serif;
+}
+
+h1 {
+    font-size: 7.6rem;
+}
+
+h2 {
+    font-size: 6.1rem;
+}
+
+h3 {
+    font-size: 3.9rem;
+}
+
+h4 {
+    font-size: 3.1rem;
+}
+
+h5 {
+    font-size: 4.9rem;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.tr,
+.custom_nav #my_nav ul li a,
+#banner .container .row .banner_area button,
+#category button,
+#honey .honey_text button,
+#special_offer .offer_area .offer_inner button,
+#best_seller .bestseller_area .single_best_seller .card .cart_button a i,
+#best_seller .shop_button button,
+#testimonial button,
+#buy_best .container .best_buy_area button,
+#footer .container .footer_button button {
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.br {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* -------------------------------------------------------
+                     comon css start
+-------------------------------------------------------- */
+* {
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none !important;
+    outline: none !important;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+u {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+span {
+    display: inline-block;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----- Clear-fix & Buttons ----*/
+.clear-fix {
+    clear: both !important;
+}
+
+/* -------------------------------------------------------
+                    Banner Section CSS Start
+-------------------------------------------------------- */
+#menu {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.custom_nav {
+    background-color: transparent;
+    margin-bottom: 0;
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.custom_nav .navbar-brand {
+    text-transform: uppercase;
+    font-size: 2.0rem;
+    letter-spacing: .3rem;
+}
+
+.custom_nav #my_nav ul li a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding: 1.5rem 1.5rem;
+}
+
+.custom_nav #my_nav ul li a:hover {
+    color: black;
+}
+
+.custom_nav #my_nav ul .active a {
+    color: grey;
+}
+
+.custom_nav #my_nav ul li a:focus {
+    color: greenyellow;
+}
+
+.menu-bg {
+    background: #353535;
+}
+
+.navbar-toggler i {
+    color: #fff;
+
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #fff;
+}
+
+/* -------------------------------------------------------
+                    Banner Section CSS Start
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                    Banner Section CSS Start
+-------------------------------------------------------- */
+#banner {
+    background: url(../images/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#banner .container .row .banner_area {
+    padding-top: 15rem;
+}
+
+#banner .container .row .banner_area p {
+    padding-top: 5rem;
+    padding-bottom: 6.3rem;
+}
+
+#banner .container .row .banner_area button {
+    font-size: 3.1rem;
+    width: 26.3rem height: 7.2rem;
+    line-height: 5.9rem;
+    background: #c7141d;
+    border-radius: 0rem;
+}
+
+#banner .container .row .banner_area button:hover {
+    background: #81c14b;
+    outline: 0rem;
+}
+
+#banner .container .row .banner_area button:active {
+    outline: none;
+    border: none;
+}
+
+/* -------------------------------------------------------
+                    Banner Section CSS End
+-------------------------------------------------------- */
+#category {
+    margin-top: -12rem;
+}
+
+#category .category_area .single_category .single_cat_image {
+    position: relative;
+}
+
+#category .category_area .single_category a {
+    position: absolute;
+    font-size: 6.1rem;
+    bottom: 4.0rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-decoration: none;
+}
+
+#category button {
+    width: 36rem;
+    height: 7rem;
+    line-height: 5.7rem;
+    border: .2rem solid #171717;
+    border-radius: 0rem;
+    margin-top: 5rem;
+    font-size: 3.1rem;
+    background: #ffffff;
+}
+
+#category button:hover {
+    background: #81c14b;
+    outline: 0rem;
+    border: .2rem solid #81c14b;
+}
+
+/* -------------------------------------------------------
+                    Category Section CSS Start
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                    Honey Section CSS End
+-------------------------------------------------------- */
+#honey {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    overflow: hidden;
+    margin-bottom: 17.5rem;
+}
+
+#honey .honey_text {
+    background: url(../images/honey-bg.jpg) no-repeat;
+    margin-left: -24rem;
+}
+
+#honey .honey_text h4 {
+    font-size: 4rem;
+    margin-top: 7.5rem;
+}
+
+#honey .honey_text p {
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+
+#honey .honey_text button {
+    font-size: 3.1rem;
+    width: 26.3rem;
+    height: 7.2rem;
+    line-height: 5.9rem;
+    background: #c7141d;
+    border-radius: 0rem;
+    margin-bottom: 6rem;
+}
+
+#honey .honey_text button:hover {
+    background: #81c14b;
+    outline: 0rem;
+}
+
+#honey .honey_text button:active {
+    outline: none;
+    border: none;
+}
+
+/* -------------------------------------------------------
+                    Honey Section CSS End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                    Special offer Section CSS Start
+-------------------------------------------------------- */
+#special_offer {
+    background: url(../images/special-offer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#special_offer .offer_area {}
+
+#special_offer .offer_area .offer_inner {
+    background: url(../images/special-offer.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    margin-top: -20rem;
+}
+
+#special_offer .offer_area .offer_inner h5 {
+    padding-bottom: 3rem;
+}
+
+#special_offer .offer_area .offer_inner p {
+    text-align: justify;
+}
+
+#special_offer .offer_area .offer_inner button {
+    margin-top: 4rem;
+    font-size: 3.1rem;
+    width: 19.5rem;
+    height: 7.2rem;
+    line-height: 5.9rem;
+    background: #c7141d;
+    border: none;
+    border-radius: 0rem;
+}
+
+#special_offer .offer_area .offer_inner button:hover {
+    background: #81c14b;
+    outline: 0rem;
+}
+
+#special_offer .offer_area .offer_inner button:active {
+    outline: none;
+    border: none;
+}
+
+/* -------------------------------------------------------
+                    Special offer Section CSS End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                    Best Seller Section CSS Start
+-------------------------------------------------------- */
+#best_seller {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#best_seller .section_title h5 {
+    padding-bottom: 3.5rem;
+}
+
+#best_seller .bestseller_area {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+#best_seller .bestseller_area .single_best_seller .card {
+    border: none;
+    border-radius: 0rem;
+    background: #fcecc9;
+}
+
+#best_seller .bestseller_area .single_best_seller .card .card_img {
+    position: relative;
+}
+
+#best_seller .bestseller_area .single_best_seller .card .cart_button {
+    position: absolute;
+    top: 18.1rem;
+    right: 0rem;
+}
+
+#best_seller .bestseller_area .single_best_seller .card .cart_button a i {
+    color: #fff;
+    font-size: 3rem;
+    padding: 1.9rem 1.2rem;
+    background: #c7141d;
+}
+
+#best_seller .bestseller_area .single_best_seller .card .cart_button:hover i {
+    background: #81c14b;
+}
+
+#best_seller .shop_button button {
+    margin-top: 4.0rem;
+    font-size: 3.1rem;
+    width: 36rem;
+    height: 7.2rem;
+    line-height: 5.9rem;
+    background: transparent;
+    color: #000;
+    border: .2rem solid #000;
+    border-radius: 0rem;
+}
+
+#best_seller .shop_button button:hover {
+    background: #81c14b;
+    outline: 0rem;
+    border: .2rem solid #81c14b;
+}
+
+#best_seller .shop_button button:active {
+    outline: none;
+    border: none;
+}
+
+/* -------------------------------------------------------
+                    Best Seller Section CSS End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                    The process Section CSS Start
+-------------------------------------------------------- */
+#process {
+    overflow: hidden;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#process .process_text_part .process_text_inner h3 {
+    padding-top: 8.2rem;
+    padding-bottom: 4rem;
+}
+
+#process .process_text_part .process_text_inner p {
+    padding-bottom: 5rem;
+}
+
+#process .process_text_part .process_text_inner .process_icon {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* -------------------------------------------------------
+                   The process Section CSS End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                   Workers Section CSS Start
+-------------------------------------------------------- */
+#workers {
+    padding-top: 10rem;
+    overflow: hidden;
+}
+
+#workers .container .section_title h4 {
+    padding-bottom: 3rem;
+}
+
+#workers .worker_slide {
+    padding-top: 8rem;
+}
+
+#workers .worker_slide img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#workers .worker_slide .slick-slide.slick-current.slick-active.slick-center img {
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+#workers .worker_slide .workers_detail {
+    padding-top: 3.6rem;
+    padding-bottom: 3.6rem;
+    background: #f2c078;
+    margin-top: -7.7rem;
+    opacity: 0;
+}
+
+#workers .worker_slide .workers_detail h4 {
+    padding-bottom: 2.7rem;
+}
+
+#workers .worker_slide .workers_detail a {
+    text-decoration: underline;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#workers .worker_slide .slick-slide.slick-current.slick-active.slick-center .workers_detail {
+    opacity: 1;
+}
+
+/* -------------------------------------------------------
+                   Workers Section CSS End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                   Testimonial Section CSS Start
+-------------------------------------------------------- */
+#testimonial {
+    padding-top: 10rem;
+    padding-bottom: 10rem
+}
+
+#testimonial .testimonial_title_area .testimonial_title h3 {
+    padding-bottom: 4.5rem;
+}
+
+#testimonial .testimonial_area {
+    padding-bottom: 8.5rem;
+}
+
+#testimonial .testimonial_area .single_testimonial .testimonial_inner {
+    background: #daefb3;
+    font-size: 2rem;
+}
+
+#testimonial .testimonial_area .single_testimonial .testimonial_inner p {
+    font-style: italic;
+    text-align: left;
+    padding: 4.5rem 4rem 10rem 3.5rem;
+}
+
+#testimonial .testimonial_area .single_testimonial .testimonial_inner .client_info .client_info_text {
+    padding-right: 3.5rem;
+}
+
+#testimonial .testimonial_area .single_testimonial .testimonial_inner .client_info .client_info_text h6 {
+    font-size: 2rem;
+    font-style: italic;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+}
+
+#testimonial .testimonial_area .single_testimonial .testimonial_inner .client_info .client_info_text h5 {
+    font-size: 2rem;
+}
+
+#testimonial .testimonial_area .single_testimonial .testimonial_inner .client_info .client_img {
+    margin-left: 3.3rem;
+    margin-bottom: -1.7rem;
+}
+
+#testimonial button {
+    width: 36rem;
+    height: 7rem;
+    border: .2rem solid #000;
+    font-size: 3.1rem;
+    line-height: 5.5rem;
+    border-radius: 0rem;
+    background: transparent;
+}
+
+#testimonial button:hover {
+    background: #81c14b;
+    outline: 0rem;
+    border: .2rem solid #81c14b;
+}
+
+#testimonial button:active {
+    outline: none;
+    border: none;
+}
+
+/* -------------------------------------------------------
+                   Testimonial Section CSS End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                   Partner Section CSS Start
+-------------------------------------------------------- */
+#partner {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#partner .partner_area {
+    padding-top: 8rem;
+}
+
+/* -------------------------------------------------------
+                   Partner Section CSS End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                   Video Section CSS Start
+-------------------------------------------------------- */
+#video {
+    overflow: hidden;
+}
+
+#video .container .section_title_area .section_title {
+    padding-bottom: 6rem;
+}
+
+#video .container .section_title_area .section_title h3 {
+    padding-bottom: 5rem;
+}
+
+#video .video_area {
+    background: url(../images/video-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* -------------------------------------------------------
+                   Video Section CSS End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                   Map Section CSS Start
+-------------------------------------------------------- */
+#map {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    overflow: hidden;
+}
+
+#map .container .section_title_area .section_title h3 {
+    padding-bottom: 6rem;
+}
+
+#map .container .contact_info_area {
+    background: #daefb3;
+}
+
+#map .container .contact_info_area .contact_info_inner {
+    padding-bottom: 3.8rem;
+}
+
+#map .container .contact_info_area .contact_info_inner h4 {
+    padding-top: 5rem;
+    padding-bottom: 2.8rem;
+}
+
+#map .container .contact_info_area .contact_info_inner p {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+/* -------------------------------------------------------
+                   Map Section CSS End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                   Buy Best Now Section CSS Start
+-------------------------------------------------------- */
+#buy_best {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+#buy_best .container .best_buy_area {
+    background: url(../images/bottom-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+}
+
+#buy_best .container .best_buy_area h2 {
+    font-size: 7.6rem;
+}
+
+#buy_best .container .best_buy_area button {
+    width: 26rem;
+    height: 10.5rem;
+    font-size: 4.9rem;
+    line-height: 10.5rem;
+    border-radius: 0rem;
+    background: #c7141d;
+}
+
+#buy_best .container .best_buy_area button:hover {
+    background: #81c14b;
+    outline: 0rem;
+    border: .2rem solid #81c14b;
+}
+
+#buy_best .container .best_buy_area button:active {
+    outline: none;
+    border: none;
+}
+
+/* -------------------------------------------------------
+                    Buy Best Now Section CSS End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                 Footer Section CSS Start
+-------------------------------------------------------- */
+#footer {
+    background: url(../images/footer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#footer .container .footer_logo a {
+    font-size: 6.1rem;
+    color: #81c14b;
+    font-family: 'Ovo', serif;
+}
+
+#footer .container .address h6 {
+    font-size: 2.5rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+#footer .container .address p {
+    font-size: 2rem;
+}
+
+#footer .container .footer_button button {
+    margin-top: 7rem;
+    width: 36rem;
+    height: 10.5rem;
+    font-size: 3.1rem;
+    border-radius: 0rem;
+    background: #c7141d;
+}
+
+#footer .container .footer_button button:hover {
+    background: #81c14b;
+    border: 2rem solid #81c14b;
+    line-height: inherit;
+}
+
+#footer .container .footer_button button:active {
+    outline: none;
+    border: none;
+}
+
+/* -------------------------------------------------------
+                   Footer Section CSS End
+-------------------------------------------------------- */

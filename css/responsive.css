@@ -1,0 +1,42 @@
+/* -------------------------------------------------------
+                     Responsive 
+-------------------------------------------------------- */
+
+@media screen and (max-width: 991.99px) {
+    html {
+        font-size: 50%;
+    }
+
+    #process .process_text_part .process_text_inner .process_icon {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 767.99px) {
+    #category {
+        margin-top: 12rem;
+    }
+
+    .single_category {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 575.99px) {
+    #honey .honey_text {
+        margin: 0;
+    }
+
+    #best_seller .bestseller_area .single_best_seller .card .cart_button {
+        bottom: 0rem;
+    }
+    .process_text_inner{
+    text-align: center;
+    }
+}
+
+/* -------------------------------------------------------
+                    Responsive 
+-------------------------------------------------------- */
